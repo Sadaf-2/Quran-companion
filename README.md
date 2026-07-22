@@ -1,16 +1,62 @@
-# React + Vite
+# Quran Companion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Quran Companion web application built with React.js and Tailwind CSS. It allows users to read the Holy Quran, view prayer times, access daily duas, use a digital tasbih, and find the Qibla direction.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 📖 Read all Quran Surahs
+- 🔍 Search Surahs
+- 📑 Surah Details
+- 🕌 Prayer Times
+- 🤲 Daily Duas
+- 📿 Digital Tasbih
+- 🧭 Qibla Direction
+- 🌙 Dark / Light Theme
+- 📱 Fully Responsive Design
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- JavaScript
+- Tailwind CSS
+- React Router DOM
+- Axios
+- Al Quran Cloud API
+- Local Storage
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/Sadaf-2/Quran-companion.git
+cd Quran-companion
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+```
+src/
+├── components/
+├── pages/
+├── services/
+├── context/
+├── assets/
+├── App.jsx
+└── main.jsx
+```
+
+## API Used
+
+- https://api.alquran.cloud/v1
+
+## Author
+
+**Sadaf Iqbal**
