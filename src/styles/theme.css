@@ -1,0 +1,35 @@
+:root {
+  --bg: #f8fafc;
+  --text: #111827;
+  --card: #ffffff;
+  --primary: #059669;
+  --secondary: #ecfdf5;
+  --border: #d1d5db;
+}
+
+.dark {
+  --bg: #111827;
+  --text: #f9fafb;
+  --card: #1f2937;
+  --primary: #047857;
+  --secondary: #374151;
+  --border: #4b5563;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: all .3s ease;
+}
+
+.card {
+  background: var(--card);
+}
+
+.primary {
+  background: var(--primary);
+}
+
+.secondary {
+  background: var(--secondary);
+}
